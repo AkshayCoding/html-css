@@ -1,1 +1,21 @@
+About Python tkinter 
+What Is Tkinter
+Tkinter is Python's de-facto standard GUI (Graphical User Interface) package. It is a thin object-oriented layer on top of Tcl/Tk.
+Tkinter is not the only GuiProgramming toolkit for Python. 
+It is however the most commonly used one. Graphical User Interfaces with Tk, a chapter from the Python Documentation
+From tkinter import *
+Means that you're importing something from a library, Tkinter is the name of that library. Import * means everything.
+from tkinter.messagebox import *
+Means That ur Importing Message Box From Tkinter
 
+#Variables
+A variable is created the moment you first assign a value to it.
+For Example X=5 and Y=7 
+Print(x=5)
+Print(y=7)
+#print
+the print() function prints the specified message to the screen, or other standard output device.
+The message can be a string, or any other object, the object will be converted into a string before written to the screen
+#A Variable Example
+font=("Verdana" , 22 , "bold")
+#
