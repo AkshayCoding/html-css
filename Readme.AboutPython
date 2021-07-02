@@ -18,4 +18,61 @@ the print() function prints the specified message to the screen, or other standa
 The message can be a string, or any other object, the object will be converted into a string before written to the screen
 #A Variable Example
 font=("Verdana" , 22 , "bold")
-#
+#Window 
+Any Name "Window" = Tk()
+Tk=kinter is Python's de-facto standard GUI (Graphical User Interface) package.
+It is a thin object-oriented layer on top of Tcl/Tk. 
+Tkinter is not the only GuiProgramming toolkit for Python. It is however the most commonly used one.
+Graphical User Interfaces with Tk, a chapter from the Python Documentation.
+#window.title("Calculator")
+window.title("Calculator") Sets the title
+
+
+#window.wm_iconbitmap(Icon format ico )
+wm=The wm command is used to interact with window managers in order to control such things as the title for a window, 
+its geometry, or the increments in terms of which it may be resized. 
+The wm command can take any of a number of different forms, depending on the option argument.
+window.wm_iconbitmapit #  it set the icon 
+
+#window.geometry("widthxheight") sets the width and height of the screen
+
+#window.resizable(50,0)
+
+resizable() method is used to allow Tkinter root window to change it's size according to the users need as well we can prohibit resizing of the Tkinter window.
+
+
+#textField = Entry (window,font=font,justify=CENTER)
+
+TextField is a field used to create an arbitrary amount of text characters in a database
+The Entry widget is used to provde the single line text-box to the user to accept a value from the user. 
+
+Python string method rjust() returns the string right justified in a string of length width.
+Padding is done using the specified fillchar (default is a space). The original string is
+
+textField.pack(side=TOP,fill=X)
+
+Pack  = The Pack geometry manager packs widgets in rows or columns.
+Put a widget inside a frame (or any other container widget), and have it fill the entire frame. Place a number of widgets on top of each other.
+Place a number of widgets side by side.
+
+ButtonFrame = Frame(window)
+Python Tkinter Frame widget is used to organize the group of widgets.
+It acts like a container which can be used to hold the other widgets.
+The rectangular areas of the screen are used to organize the widgets to the python application.
+The syntax to use the Frame widget is given below.
+
+temp = Temporary files, or "tempfiles", are mainly used to store intermediate information on disk for an application.
+Python provides a module known as tempfile, which makes creating and handling temporary files easier.
+This module provides a few methods to create temporary files and directories in different ways.
+
+
+
+
+
+
+
+
+
+
+
+
