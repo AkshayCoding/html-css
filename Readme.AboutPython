@@ -66,8 +66,85 @@ Python provides a module known as tempfile, which makes creating and handling te
 This module provides a few methods to create temporary files and directories in different ways.
 
 
+ btn=Button(buttonFrame
+ btn=The Button widget is used to add buttons in a Python application. 
+ These buttons can display text or images that convey the purpose of the buttons.
+ You can attach a function or a method to a button which is called automatically when you click the button.
+
+btn.grid
+The Grid geometry manager puts the widgets in a 2-dimensional table.
+The master widget is split into a number of rows and columns, and each “cell” in the resulting table can hold a widget. 
+
+ btn.bind
+The bind() method of Python's socket class assigns an IP address and a port number to a socket instance.
+For client programs, it is not required to bind the socket explicitly to a port.
+
+relief = The relief style of a widget refers to certain simulated 3-D effects around the outside of the widget. 
+
+activebackground , foreground =  Background color for the widget when the widget is active.
+activeforeground − Foreground color for the widget when the widget is active. background − Background color for the widget. This can also be represented as bg.
+disabledforeground − Foreground color for the widget when the widget is disabled.
+
+command = Execute the Python code in command.
+command can be one or more statements separated by newlines, with significant leading whitespace as in normal module code.
+
+def all_clear():
+in Python, defining the function works as follows. def is the keyword for defining a function
+
+The clear() method removes all the elements from a list.which can be used as all clear btn
+
+def click_btn_function(event):
+
+event = An Event Handler is a class, part of events, which simply is responsible for managing all callbacks which are to be executed when invoked.
+An Event is simply an action, like clicking a button, which then leads to another event, which the developer already assigns.
+
+These buttons can display text or images that convey the purpose of the buttons.
+You can attach a function or a method to a button which is called automatically when you click the button.
+
+b=event.widget
+In general, Widget is an element of Graphical User Interface (GUI) that displays/illustrates information or gives a way for the user to interact with the OS.
+In Tkinter , Widgets are objects ; instances of classes that represent buttons, frames, and so on.
+Each separate widget is a Python object
+
+if text
+If all search words are found in text, returns length of search, or False otherwise.
+
+eval is a built-in- function used in python, eval function parses the expression argument and evaluates it as a python expression.
+In simple words, the eval function evaluates the “String” like a python expression and returns the result as an integer.
+
+try
+Python's try statement is a means which we can use to handle errors gracefully.
+If the error is handled properly, execution of the code does not produce error status and there is no output to stderr.
+
+except exception 
+The try and except block in Python is used to catch and handle exceptions.
+Python executes code following the try statement as a “normal” part of the program. ... This exception error will crash the program if it is unhandled.
+The except clause determines how your program responds to exceptions.
+
+textField.insert
+When input function executes program flow will be stopped until the user has given an input.
+The text or message display on the output screen to ask a user to enter input value is optional i.e. the prompt, will be printed on the screen is optional.
+
+ textField.delete
+Tkinter Text widget has delete(first, last=None) method to delete the characters at the index of first , or within the range of (first, last) from the text box. 
+If last is not given, only the character specified in the first position is deleted.
+
+return
+If the return statement contains an expression, it's evaluated first and then the value is returned.
+The return statement terminates the function execution.
+A function can return multiple types of values. Python function can return multiple values in a single return statement.
 
 
+
+ showerror
+ Open-source error tracking that helps developers monitor and fix crashes in real time.
+ Sentry is here to help you fix it | Tracks errors in all major languages & frameworks. 
+
+
+window.mainloop()
+
+mainloop(): There is a method known by the name mainloop() is used when your application is ready to run.
+mainloop() is an infinite loop used to run the application, wait for an event to occur and process the event as long as the window is not closed.
 
 
 
